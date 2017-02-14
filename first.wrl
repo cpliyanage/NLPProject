@@ -1,0 +1,18 @@
+﻿#VRML V2.0 utf8
+
+Group { 
+
+children [ 
+DEF box Transform { 
+	translation 0 0 0 
+	children [  
+	Shape { 
+		appearance Appearance { 
+		material Material { diffuseColor 1 1 1 } 
+	} 
+	geometry Box { } 
+}
+]
+}
+]
+}

@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
@@ -16,13 +16,13 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 
 
-/**
+*//**
  * Some simple unit tests for the CoreNLP NER (http://nlp.stanford.edu/software/CRF-NER.shtml) short
  * article.
  * 
  * @author hsheil
  *
- */
+ *//*
 public class ArticleNlpRunner {
 
   private static final Logger LOG = LoggerFactory.getLogger(ArticleNlpRunner.class);
@@ -132,4 +132,4 @@ class EmbeddedToken {
     this.name = name;
     this.value = value;
   }
-}
+}*/

@@ -22,8 +22,7 @@ public class POSTag {
 	POSTaggerME tagger = new POSTaggerME(model);
  
 	String input = "Draw a brown table";
-	ObjectStream<String> lineStream = new PlainTextByLineStream(
-			new StringReader(input));
+	ObjectStream<String> lineStream = new PlainTextByLineStream(new StringReader(input));
  
 	perfMon.start();
 	String line;

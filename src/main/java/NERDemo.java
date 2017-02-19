@@ -1,4 +1,4 @@
-import edu.stanford.nlp.ie.crf.*;
+/*import edu.stanford.nlp.ie.crf.*;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.CoreAnnotations.AnswerAnnotation;
@@ -8,6 +8,8 @@ import java.util.List;
 import java.io.IOException;
 
 
+
+*/
 
 /** This is a demo of calling CRFClassifier programmatically.
  *  <p>
@@ -27,7 +29,7 @@ import java.io.IOException;
  *
  *  @author Jenny Finkel
  *  @author Christopher Manning
- */
+ *//*
 
 public class NERDemo {
 
@@ -41,13 +43,13 @@ public class NERDemo {
 
       AbstractSequenceClassifier classifier = CRFClassifier.getClassifierNoExceptions(serializedClassifier);
 
-      /* For either a file to annotate or for the hardcoded text example,
+       For either a file to annotate or for the hardcoded text example,
          this demo file shows two ways to process the output, for teaching
          purposes.  For the file, it shows both how to run NER on a String
          and how to run it on a whole file.  For the hard-coded String,
          it shows how to run it on a single sentence, and how to do this
          and produce an inline XML output format.
-      */
+      
       if (args.length > 1) {
         String fileContents = StringUtils.slurpFile(args[1]);
         List<List<CoreLabel>> out = classifier.classify(fileContents);
@@ -74,4 +76,4 @@ public class NERDemo {
       }
     }
 
-}
+}*/

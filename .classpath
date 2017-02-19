@@ -27,10 +27,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/edu.mit.jwi_2.4.0_jdk.jar"/>
-	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/stanford-ner-2016-10-31/stanford-ner-2016-10-31/stanford-ner-3.7.0.jar"/>
-	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/stanford-corenlp-full-2016-10-31/stanford-corenlp-3.7.0.jar"/>
-	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/stanford-corenlp-full-2016-10-31/slf4j-api.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/edu.mit.jwi_2.4.0_jdk.jar"/>
+	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/maxent-3.0.0.jar" sourcepath="E:/Uni/4th year project/Libraries and Software/maxent-3.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Uni/4th year project/Libraries and Software/JWNL/jwnl14-rc2/jwnl.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

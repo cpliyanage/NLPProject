@@ -1,22 +1,22 @@
-import edu.stanford.nlp.ie.crf.CRFClassifier;
+/*import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
  
-/**
+*//**
  * Standford Named Entity Demo
  * @author Ganesh
- */
+ *//*
 public class StanfordNER
 {
- /**
+ *//**
  * identify Name,organization location etc entities and return Map<List>
  * @param text -- data
  * @param model - Stanford model names out of the three models
  * @return
- */
+ *//*
  public static LinkedHashMap <String,LinkedHashSet<String>> identifyNER(String text,String model)
  {
  LinkedHashMap <String,LinkedHashSet<String>> map=new <String,LinkedHashSet<String>>LinkedHashMap();
@@ -63,4 +63,4 @@ public class StanfordNER
  System.out.println(identifyNER(content, "D:\\data\\model\\english.conll.4class.distsim.crf.ser.gz").toString());
  }
  
-}
+}*/
